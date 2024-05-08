@@ -1,0 +1,235 @@
+/* homepage */
+h1{
+    color: #1b77da;
+}
+body{
+    color: #1b77da;
+    background-color: black;
+    margin: 40px;
+}
+nav{ overflow: auto;
+    padding: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    float: center;
+    text-align: center;
+    padding: 14px 26px;
+    color: #1b77da;
+    font-size: large;
+}
+nav input{
+    padding: 4px;
+    width: 400px;
+    float: left;
+    border-radius: 12px 12px;
+    border: none;
+}
+nav button{
+    padding: 4px;
+    margin-left: 20px;
+    border-radius: 12px 12px;
+    border: none;
+    width: 100px;
+}
+nav a:hover{
+background-color: #1b77da;
+color: black;
+border-radius: 15px 15px;
+font-size: large;
+padding-top: 6px;
+padding-bottom: 6px;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.card{
+    max-width: 300px;
+    transition: 0.3s;
+    display: block;
+    border-radius: 10px 10px;
+    box-shadow: 0 4px 8px  #1b77da;
+    margin: 20px;
+    margin-bottom: 20px;
+}
+div.row {
+    margin: 20px;
+    margin-left: 45px;
+}
+div.column{
+    float: left;
+}
+section::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+section{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.card img{
+    width: 250px;
+    border-radius: 10px 10px;
+    margin: 6px;
+    height: 320px;
+    object-fit: cover;
+    transition: 0.3s;
+}
+.card img:hover{
+    transform: scale(1.05);
+}
+.p_name{
+    padding-left: 10px;
+}
+.price{
+    padding-left: 10px;
+    color: gray;
+}
+.card button{
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    padding: 5px;
+    text-align: center;
+}
+.card button:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.card:hover{
+    box-shadow: 0 8px 16px  #1b77da;
+}
+
+
+/* login form */
+.login_form{
+    width: 360px;
+    height: 300px;
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+   
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+input[type="button"]{
+    width: 100%;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: black;
+    color: #1b77da;
+    font-size: 18px;
+}
+input[type="button"]:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+input[type="button"]:active{
+    background-color: #1b77da;
+}
+.para{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+    }
+.dits{
+    padding: 10px 10px;
+    text-align: center;
+}
+    
+    /* reg form */
+h1.name{
+    text-align: center;
+font-size: 40px;
+margin-left: 65px;
+    }
+    .register_form{
+        width: 360px;
+        height: 500px;
+        margin: auto;
+        background-color: white;
+        border-radius: 5px;
+    }
+    
+   /* cart  */
+   .cart-page{
+    margin: 80px auto;
+   }
+   table{
+    width: 100%;
+    border-collapse: collapse;
+   }
+   .product-img{
+    display: flex;
+    flex-wrap: wrap;
+   }
+   th{
+    text-align: left;
+    padding: 5px;
+    color: white;
+    background-color: #1b77da;
+    font-weight: normal;
+   }
+   td{
+    padding: 10px 5px;
+   }
+   td input{
+    width: 40px;
+    height: 20px;
+    padding: 5px;
+   }
+   td a{
+    font-size: 12px;
+    color: orangered;
+    text-decoration: none;
+   }
+   td img{
+    margin-right: 10px;
+    width: 80px;
+    height: 80px;
+   }
+   div a{
+    text-align: center;
+    text-decoration: none;
+    color: #1b77da;
+    display: flex;
+    flex-wrap: wrap;
+   }
+   form a{
+    color: #000000;
+   }
+   .check{
+    border: none;
+    width: 30%;
+    background-color:  #1b77da;
+    color: #fff;
+    font-size: 23px;
+    height: 40px;
+    border-radius: 20px 0px;
+    text-align: center;
+    margin-left: 35%;
+   }

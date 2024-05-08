@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my cart</title>
+    <link rel="stylesheet" href="DECO.CSS">
+</head>
+<body>
+    <nav>
+        <h1>
+            YUMMY FOODS
+        </h1>
+        <input type="text" placeholder="search">
+        <button>search</button>
+        <a href="homepage.html">Home</a>
+        <a href="login.html">Account</a>
+        <a href="#">cart</a>
+        <a href="">logout</a>
+        
+    </nav>
+    <div class="cart-page">
+
+        <table>
+            <tr>
+                <th>product name</th>
+                <th>quantity</th>
+                <th>subtotal</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class = "product-img">
+                        <img src="https://th.bing.com/th/id/OIP.sAEuJFP4GjaCSAd9tkD49QHaEA?w=305&h=180&c=7&r=0&o=5&pid=1.7">
+                        <div>
+                            <p>burger and fries</p>
+                            <small>price: ugx 15000</small>
+                            <br>
+                            <a href="">remove</a>
+                        </div>
+                        
+                    </div>
+                </td>
+                <td>
+                    <input type="number" value="1">
+                </td>
+                <td>
+                    <p>ugx 15000</p>
+                </td>
+                
+            </tr>
+        </table>
+        <hr>
+        <label for="location">DELIVARY ADDRESS:</label>
+        <select name="location" id="location">
+            <option value="eastern">Eastern region</option>
+            <option value="central">Central region</option>
+            <option value="south">Southern region</option>
+            <option value="west">Western region</option>
+        </select>
+        <p>Payment method:</p>
+            <input type="radio" id="mobile"  value="Mobile Money" >
+            <label for="mobile">Mobile Money</label><br>
+            <input type="radio" id="pay on delivery"  value="pay on delivery">
+            <label for="css">Pay on delivery</label><br>
+<p>Total amount: <U>ugx 15000</U> </p>
+<button class="check">PLACE ORDER</button>
+    </div>
+    
+    
+</body>
+</html>
